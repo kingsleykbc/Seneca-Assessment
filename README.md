@@ -6,7 +6,7 @@ This is my submission for the Question and Option Selection UI Widget.
 
 ## Tools Used
 
-This project was developed 100% entirely with JSX and CSS alone (i.e., no 3rd-party libraries).
+This project was developed purely in JSX and CSS alone (i.e., no 3rd-party libraries/ui kits/frameworks used).
 
 ## Assumptions
 
