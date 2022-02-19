@@ -2,6 +2,8 @@
 
 This is my submission for the Question and Option Selection UI Widget.
 
+[Live Demo](https://kingsleykbc.github.io/Seneca-Assessment/)
+
 ## Tools Used
 
 This project was developed 100% entirely with JSX and CSS alone (i.e., no 3rd-party libraries).

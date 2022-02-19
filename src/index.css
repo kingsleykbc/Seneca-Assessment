@@ -35,3 +35,9 @@ button:hover {
 	color: #fff;
 }
 
+a[rel="noreferrer"] {
+	text-align: center;
+	display: block;
+	padding: 20px;
+	color: #747474;
+}

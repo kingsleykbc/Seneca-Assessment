@@ -2,7 +2,14 @@ import QuestionList from './Components/QuestionList/QuestionList';
 import { QuestionListType } from './types';
 
 function App() {
-	return <QuestionList questions={questions} />;
+	return (
+		<>
+			<QuestionList questions={questions} />
+			<a rel="noreferrer" href='https://github.com/kingsleykbc/Seneca-Assessment' target='_blank'>
+				View on GitHub
+			</a>
+		</>
+	);
 }
 
 export default App;

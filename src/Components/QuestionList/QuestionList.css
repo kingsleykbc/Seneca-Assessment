@@ -6,7 +6,7 @@
 .QuestionList .options {
 	margin-bottom: 20px;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	gap: 15px;
 }
 
@@ -55,13 +55,4 @@
 
 .QuestionList .switchButton:nth-child(2){
 	border-left: 2px solid #ebebeb;
-}
-
-@media screen and (max-width: 800px) {
-	.QuestionList {
-		padding-bottom: 60px;
-	}
-	.QuestionList .options {
-		justify-content: center;
-	}
 }
