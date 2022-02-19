@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Seneca-Assessment/static/css/main.ebd81374.css",
-    "main.js": "/Seneca-Assessment/static/js/main.2396315e.js",
+    "main.css": "/Seneca-Assessment/static/css/main.5e954116.css",
+    "main.js": "/Seneca-Assessment/static/js/main.32283329.js",
     "static/js/787.ef758683.chunk.js": "/Seneca-Assessment/static/js/787.ef758683.chunk.js",
     "index.html": "/Seneca-Assessment/index.html",
-    "main.ebd81374.css.map": "/Seneca-Assessment/static/css/main.ebd81374.css.map",
-    "main.2396315e.js.map": "/Seneca-Assessment/static/js/main.2396315e.js.map",
+    "main.5e954116.css.map": "/Seneca-Assessment/static/css/main.5e954116.css.map",
+    "main.32283329.js.map": "/Seneca-Assessment/static/js/main.32283329.js.map",
     "787.ef758683.chunk.js.map": "/Seneca-Assessment/static/js/787.ef758683.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebd81374.css",
-    "static/js/main.2396315e.js"
+    "static/css/main.5e954116.css",
+    "static/js/main.32283329.js"
   ]
 }
