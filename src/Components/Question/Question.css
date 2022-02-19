@@ -1,0 +1,32 @@
+.Question {
+  color: #fff;
+  border-radius: 7px;
+  overflow: hidden;
+  text-align: center;
+  padding: 40px 30px;
+  box-shadow: 0 2px 7px rgba(55, 62, 156, 0.2);
+  transition: all linear 0.3s;
+  position: relative;
+	max-width: 800px;
+  margin: auto;
+  margin-bottom: 20px;
+
+}
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transition: opacity ease-out 0.5s;
+}
+
+
+@media screen and (max-width: 600px){
+  .Question {
+    padding: 30px 15px;
+  }
+}
+

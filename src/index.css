@@ -1,13 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Titillium+Web:wght@200&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font-family: 'Mulish', 'Titillium Web', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+button {
+	font-size: 1rem;
+	padding: 12px 25px;
+	border-radius: 25px;
+	box-shadow: 0 3px 8px rgba(31, 33, 65, 0.15);
+	cursor: pointer;
+	border: none;
+	font-weight: bold;
+	background: #fff;
+	color: #686868;
+	transition: background linear 0.2s;
+}
+
+button:hover {
+	background: #6dcad4;
+	color: #fff;
+}
+

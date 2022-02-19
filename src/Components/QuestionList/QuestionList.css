@@ -1,0 +1,67 @@
+.QuestionList {
+	padding: 20px;
+	margin: auto;
+}
+
+.QuestionList .options {
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: flex-end;
+	gap: 15px;
+}
+
+.QuestionList .questions {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.QuestionList .questionWrapper {
+	width: 100%;
+	flex-shrink: 0;
+}
+
+.QuestionList .questionSection {
+	width: 100%;
+	overflow: hidden;
+}
+
+.QuestionList .questionNavBar {
+	border-radius: 25px;
+	box-shadow: 0 3px 8px rgba(31, 33, 65, 0.15);
+	cursor: pointer;
+	border: none;
+	background: #fff;
+	display: flex;
+	max-width: 800px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.QuestionList .switchButton {
+	font-weight: bold;
+	padding: 15px;
+	font-size: 1rem;
+	color: #686868;
+	flex-grow: 1;
+	flex-basis: 0;
+	text-align: center;
+	transition: background linear 0.2s;
+}
+
+.QuestionList .switchButton:hover {
+	background: #6dcad4;
+	color: #fff;
+}
+
+.QuestionList .switchButton:nth-child(2){
+	border-left: 2px solid #ebebeb;
+}
+
+@media screen and (max-width: 800px) {
+	.QuestionList {
+		padding-bottom: 60px;
+	}
+	.QuestionList .options {
+		justify-content: center;
+	}
+}
